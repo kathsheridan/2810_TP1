@@ -151,10 +151,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="2810_TP1.cpp" />
+    <ClInclude Include="graphe.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="graphe.h" />
+    <ClCompile Include="graphe.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
